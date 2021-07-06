@@ -10,7 +10,7 @@ import {
   FormatBytes,
   FormatConnectionStatus,
   Card,
-} from '@chia/core';
+} from '@avocado/core';
 import Connection from '../../types/Connection';
 import type { RootState } from '../../modules/rootReducer';
 import FarmCloseConnection from './FarmCloseConnection';

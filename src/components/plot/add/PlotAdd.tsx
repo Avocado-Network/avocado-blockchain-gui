@@ -5,7 +5,7 @@ import { t, Trans } from '@lingui/macro';
 import { Alert } from '@material-ui/lab';
 import { ChevronRight as ChevronRightIcon } from '@material-ui/icons';
 import { useForm, SubmitHandler } from 'react-hook-form';
-import { ButtonLoading, Flex, Form, FormBackButton, Loading } from '@chia/core';
+import { ButtonLoading, Flex, Form, FormBackButton, Loading } from '@avocado/core';
 import { PlotHeaderSource } from '../PlotHeader';
 import PlotAddChooseSize from './PlotAddChooseSize';
 import PlotAddNumberOfPlots from './PlotAddNumberOfPlots';

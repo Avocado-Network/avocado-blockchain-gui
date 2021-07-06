@@ -11,7 +11,7 @@ import {
   Loading,
   FormatLargeNumber,
   Link,
-} from '@chia/core';
+} from '@avocado/core';
 import {
   Box,
   Card,

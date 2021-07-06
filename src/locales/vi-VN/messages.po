@@ -6,21 +6,21 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: vi_VN\n"
-"Project-Id-Version: chia-blockchain\n"
+"Project-Id-Version: avocado-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2021-06-21 17:50\n"
 "Last-Translator: \n"
 "Language-Team: Vietnamese\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Crowdin-Project: chia-blockchain\n"
+"X-Crowdin-Project: avocado-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: vi\n"
-"X-Crowdin-File: /[Chia-Network.chia-blockchain-gui] main/src/locales/en-US/messages.po\n"
+"X-Crowdin-File: /[Avocado-Network.avocado-blockchain-gui] main/src/locales/en-US/messages.po\n"
 "X-Crowdin-File-ID: 118\n"
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:70
-msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
-msgstr "* Bạn muốn khám phá thêm về Chia Blockchain? Xem <0> Chia Explorer </0> được xây dựng bởi các nhà phát triển nguồn mở."
+msgid "*Want to explore Avocado’s blocks further? Check out <0>Avocado Explorer</0> built by an open source developer."
+msgstr "* Bạn muốn khám phá thêm về Avocado Blockchain? Xem <0> Avocado Explorer </0> được xây dựng bởi các nhà phát triển nguồn mở."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:94
 #~ msgid "0 automatically chooses bucket count"
@@ -36,8 +36,8 @@ msgstr "Harvester là một dịch vụ chạy trên một máy chứa các tệ
 
 #: src/electron/main.tsx:423
 #: src/electron/main.tsx:510
-msgid "About Chia Blockchain"
-msgstr "Về Chia Blockchain"
+msgid "About Avocado Blockchain"
+msgstr "Về Avocado Blockchain"
 
 #: src/components/trading/ViewOffer.jsx:85
 msgid "Accept"
@@ -187,8 +187,8 @@ msgid "Block VDF Iterations"
 msgstr "Khối VDF lặp lại"
 
 #: src/components/block/Block.jsx:311
-msgid "Block at height {0} in the Chia blockchain"
-msgstr "Khối tại height {0} trong Chia blockchain"
+msgid "Block at height {0} in the Avocado blockchain"
+msgstr "Khối tại height {0} trong Avocado blockchain"
 
 #: src/components/fullNode/FullNode.jsx:331
 #~ msgid "Block hash"
@@ -268,16 +268,16 @@ msgid "Chat on KeyBase"
 msgstr "Chat trên Keybase"
 
 #: src/electron/main.tsx:420
-msgid "Chia"
-msgstr "Chia"
+msgid "Avocado"
+msgstr "Avocado"
 
 #: src/electron/main.tsx:359
-msgid "Chia Blockchain Wiki"
-msgstr "Chia Blockchain Wiki"
+msgid "Avocado Blockchain Wiki"
+msgstr "Avocado Blockchain Wiki"
 
 #: src/components/wallet/Wallets.tsx:56
-msgid "Chia Wallet"
-msgstr "Ví Chia"
+msgid "Avocado Wallet"
+msgstr "Ví Avocado"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:21
 msgid "Choose Number of Plots"
@@ -591,8 +591,8 @@ msgid "Edit"
 msgstr "Chỉnh sửa"
 
 #: src/components/wallet/WalletImport.tsx:142
-msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
-msgstr "Nhập 24 từ ghi nhớ mà bạn đã lưu để khôi phục ví Chia của bạn."
+msgid "Enter the 24 word mnemonic that you have saved in order to restore your Avocado wallet."
+msgstr "Nhập 24 từ ghi nhớ mà bạn đã lưu để khôi phục ví Avocado của bạn."
 
 #: src/components/farm/FarmerStatus.tsx:21
 #: src/components/farm/FarmerStatus.tsx:22
@@ -605,8 +605,8 @@ msgid "Error"
 msgstr "Lỗi"
 
 #: src/components/wallet/standard/WalletStandard.tsx:415
-msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
-msgstr "Lỗi: Không thể gửi chia đến địa chỉ coloured. Vui lòng nhập địa chỉ chia."
+msgid "Error: Cannot send avocado to coloured address. Please enter a avocado address."
+msgstr "Lỗi: Không thể gửi avocado đến địa chỉ coloured. Vui lòng nhập địa chỉ avocado."
 
 #: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:51
 #: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:61
@@ -708,7 +708,7 @@ msgid "Fee"
 msgstr "Phí"
 
 #: src/components/wallet/coloured/WalletColoured.tsx:420
-#~ msgid "Fee (TXCH)"
+#~ msgid "Fee (TAVO)"
 #~ msgstr ""
 
 #: src/components/wallet/coloured/WalletColoured.tsx:420
@@ -1242,8 +1242,8 @@ msgid "Plots Passed Filter"
 msgstr "Plot đã lọc"
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:30
-msgid "Plots are allocated space on your hard drive used to farm and earn Chia. <0>Learn more</0>"
-msgstr "Plot được phân bổ không gian trên ổ cứng của bạn dùng để farm và thu về Chia. <0> Tìm hiểu thêm </0>"
+msgid "Plots are allocated space on your hard drive used to farm and earn Avocado. <0>Learn more</0>"
+msgstr "Plot được phân bổ không gian trên ổ cứng của bạn dùng để farm và thu về Avocado. <0> Tìm hiểu thêm </0>"
 
 #: src/components/plot/queue/PlotQueueIndicator.tsx:33
 msgid "Plotting"
@@ -1585,8 +1585,8 @@ msgstr "Chi tiêu thời gian khoảng (số khối): {thời gian khoảng các
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:415
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:466
-msgid "Spending Limit (chia per interval): {0}"
-msgstr "Giới hạn Chi tiêu (chia cho mỗi khoảng thời gian): {0}"
+msgid "Spending Limit (avocado per interval): {0}"
+msgstr "Giới hạn Chi tiêu (avocado cho mỗi khoảng thời gian): {0}"
 
 #: src/components/fullNode/FullNode.jsx:95
 msgid "State"
@@ -1633,8 +1633,8 @@ msgstr "Tình trạng:"
 #~ msgstr "Sub Block Height"
 
 #: src/components/block/Block.jsx:338
-#~ msgid "Sub Block at height {0} in the Chia blockchain"
-#~ msgstr "Sub Block at height {0} in the Chia blockchain"
+#~ msgid "Sub Block at height {0} in the Avocado blockchain"
+#~ msgstr "Sub Block at height {0} in the Avocado blockchain"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:357
 msgid "Submit"
@@ -1659,23 +1659,23 @@ msgstr "Đang đồng bộ <0/>/<1/>"
 #~ msgstr "Syncing {progress}/{tip}"
 
 #: src/components/farm/card/FarmCardBlockRewards.tsx:15
-#~ msgid "TXCH Block Rewards"
+#~ msgid "TAVO Block Rewards"
 #~ msgstr ""
 
 #: src/components/farm/card/FarmCardCoinbaseRewards.tsx:12
-#~ msgid "TXCH Farming Rewards"
+#~ msgid "TAVO Farming Rewards"
 #~ msgstr ""
 
 #: src/components/farm/card/FarmCardFeesReward.tsx:12
-#~ msgid "TXCH Fees Collected"
+#~ msgid "TAVO Fees Collected"
 #~ msgstr ""
 
 #: src/components/farm/card/FarmCardUserFees.tsx:12
-#~ msgid "TXCH User Fees"
-#~ msgstr "TXCH User Fees"
+#~ msgid "TAVO User Fees"
+#~ msgstr "TAVO User Fees"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:15
-#~ msgid "TXCH User Transaction Fees"
+#~ msgid "TAVO User Transaction Fees"
 #~ msgstr ""
 
 #: src/components/plot/add/PlotAddChooseSize.tsx:18
@@ -1738,8 +1738,8 @@ msgid "This feature is available only from the GUI."
 msgstr "Tính năng này chỉ khả dụng trên GUI."
 
 #: src/components/wallet/standard/WalletStandard.tsx:264
-msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
-msgstr "Đây là số lượng Chia mà bạn hiện có thể sử dụng để thực hiện các giao dịch. Nó không bao gồm phần thưởng farm đang chờ xử lý, các giao dịch đến đang chờ xử lý và Chia mà bạn vừa chi tiêu nhưng chưa có trong blockchain."
+msgid "This is the amount of Avocado that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Avocado that you have just spent but is not yet in the blockchain."
+msgstr "Đây là số lượng Avocado mà bạn hiện có thể sử dụng để thực hiện các giao dịch. Nó không bao gồm phần thưởng farm đang chờ xử lý, các giao dịch đến đang chờ xử lý và Avocado mà bạn vừa chi tiêu nhưng chưa có trong blockchain."
 
 #: src/components/wallet/standard/WalletStandard.tsx:313
 msgid "This is the pending change, which are change coins which you have sent to yourself, but have not been confirmed yet."
@@ -1758,8 +1758,8 @@ msgid "This is the time the block was created by the farmer, which is before it 
 msgstr "Đây là thời gian khối được tạo ra bởi farmer, trước khi nó được hoàn thiện với một bằng chứng về thời gian"
 
 #: src/components/wallet/standard/WalletStandard.tsx:252
-msgid "This is the total amount of chia in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
-msgstr "Đây là tổng lượng XCH trong chuỗi khối ở khối phụ cao nhất hiện tại được kiểm soát bởi các khóa riêng của bạn. Nó bao gồm phần thưởng farm bị đóng băng, nhưng không phải là các giao dịch đến và đi đang chờ xử lý."
+msgid "This is the total amount of avocado in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+msgstr "Đây là tổng lượng AVO trong chuỗi khối ở khối phụ cao nhất hiện tại được kiểm soát bởi các khóa riêng của bạn. Nó bao gồm phần thưởng farm bị đóng băng, nhưng không phải là các giao dịch đến và đi đang chờ xử lý."
 
 #: src/components/wallet/standard/WalletStandard.tsx:291
 msgid "This is the total balance + pending balance: it is what your balance will be after all pending transactions are confirmed."
@@ -1786,8 +1786,8 @@ msgid "This trade was included on blockchain at this block height"
 msgstr "Giao dịch này đã được đưa vào blockchain ở chiều cao khối này"
 
 #: src/components/app/AppTimeBombAlert.tsx:18
-msgid "This version of Chia is no longer compatible with the blockchain and can not safely farm."
-msgstr "Phiên bản Chia này không còn tương thích với blockchain và không thể farm một cách an toàn."
+msgid "This version of Avocado is no longer compatible with the blockchain and can not safely farm."
+msgstr "Phiên bản Avocado này không còn tương thích với blockchain và không thể farm một cách an toàn."
 
 #: src/components/fullNode/FullNode.jsx:87
 msgid "Time Created"
@@ -1811,8 +1811,8 @@ msgstr "Đến"
 msgid "Total Balance"
 msgstr "Tổng số dư"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:15
-#~ msgid "Total Chia Farmed"
+#: src/components/farm/card/FarmCardTotalAvocadoFarmed.tsx:15
+#~ msgid "Total Avocado Farmed"
 #~ msgstr ""
 
 #: src/components/fullNode/FullNode.jsx:192
@@ -1942,7 +1942,7 @@ msgstr "Chờ đồng bộ hóa"
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:30
-#~ msgid "WalletItem.chiaWallet"
+#~ msgid "WalletItem.avocadoWallet"
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:48
@@ -1975,8 +1975,8 @@ msgstr "Wallets"
 #~ msgstr ""
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:107
-msgid "Want to earn more Chia? Add more plots to your farm."
-msgstr "Muốn thêm Chia? Thêm nhiều plot vào farm của bạn."
+msgid "Want to earn more Avocado? Add more plots to your farm."
+msgstr "Muốn thêm Avocado? Thêm nhiều plot vào farm của bạn."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:82
 msgid "Want to have a delay before the next plot starts?"
@@ -1991,8 +1991,8 @@ msgid "Weight is the total added difficulty of all sub blocks up to and includin
 msgstr "Trọng lượng là tổng độ khó cộng thêm của tất cả các khối phụ lên đến và bao gồm khối này"
 
 #: src/components/selectKey/SelectKey.tsx:115
-msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
-msgstr "Chào mừng đến với Chia. Vui lòng đăng nhập bằng khóa hiện có hoặc tạo khóa mới."
+msgid "Welcome to Avocado. Please log in with an existing key, or create a new key."
+msgstr "Chào mừng đến với Avocado. Vui lòng đăng nhập bằng khóa hiện có hoặc tạo khóa mới."
 
 #: src/components/wallet/WalletAdd.tsx:66
 msgid "Welcome! The following words are used for your wallet backup. Without them, you will lose access to your wallet, keep them safe! Write down each word along with the order number next to them. (Order is important)"
@@ -2041,8 +2041,8 @@ msgstr "Bạn chiếm {0}% dung lượng của mạng lưới, vì vậy để �
 #~ msgstr "You have {0}% of the space on the network, so farming a block will take {expectedTimeToWin} in expectation. Actual results may take 3-4 times longer this estimate. <0>Learn about Expected Value</0>"
 
 #: src/components/app/AppTimeBomb.tsx:28
-#~ msgid "You need to upgrade the Chia application as this version will stop working soon!"
-#~ msgstr "You need to upgrade the Chia application as this version will stop working soon!"
+#~ msgid "You need to upgrade the Avocado application as this version will stop working soon!"
+#~ msgstr "You need to upgrade the Avocado application as this version will stop working soon!"
 
 #: src/components/farm/overview/FarmOverview.tsx:33
 msgid "Your Farm Overview"
@@ -2105,9 +2105,9 @@ msgstr "đang đồng bộ"
 msgid "{currencyCode} Block Rewards"
 msgstr "{currencyCode} phần thưởng khối"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:29
-msgid "{currencyCode} Total Chia Farmed"
-msgstr "{currencyCode} Tổng số Chia thu được"
+#: src/components/farm/card/FarmCardTotalAvocadoFarmed.tsx:29
+msgid "{currencyCode} Total Avocado Farmed"
+msgstr "{currencyCode} Tổng số Avocado thu được"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:28
 msgid "{currencyCode} User Transaction Fees"

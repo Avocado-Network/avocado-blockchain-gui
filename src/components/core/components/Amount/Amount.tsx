@@ -8,13 +8,13 @@ import {
 } from '@material-ui/core';
 import { useWatch, useFormContext } from 'react-hook-form';
 import TextField, { TextFieldProps } from '../TextField';
-import { chia_to_mojo } from '../../../../util/chia';
+import { avocado_to_slice } from '../../../../util/avocado';
 import useCurrencyCode from '../../../../hooks/useCurrencyCode';
 import FormatLargeNumber from '../FormatLargeNumber';
 import Flex from '../Flex';
 
 export type AmountProps = TextFieldProps & {
-  children?: (props: { mojo: number; value: string | undefined }) => ReactNode;
+  children?: (props: { slice: number; value: string | undefined }) => ReactNode;
   name?: string;
 };
 
@@ -28,7 +28,7 @@ export default function Amount(props: AmountProps) {
     name,
   });
 
-  const mojo = chia_to_mojo(value);
+  const slice = avocado_to_slice(value);
 
   return (
     <FormControl variant={variant} fullWidth={fullWidth}>
@@ -43,18 +43,18 @@ export default function Amount(props: AmountProps) {
         }}
         {...rest}
       />
-      {!!mojo && (
+      {!!slice && (
         <FormHelperText>
           <Flex alignItems="center" gap={2}>
             <Flex flexGrow={1} gap={1}>
-              <FormatLargeNumber value={mojo} />
+              <FormatLargeNumber value={slice} />
               <Box>
-                <Plural value={mojo} one="mojo" other="mojos" />
+                <Plural value={slice} one="slice" other="slices" />
               </Box>
             </Flex>
             {children &&
               children({
-                mojo,
+                slice,
                 value,
               })}
           </Flex>

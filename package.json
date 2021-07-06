@@ -1,8 +1,8 @@
 {
-  "name": "chia-blockchain",
-  "author": "Chia Network <hello@chia.net> (https://chia.net/)",
-  "description": "GUI for Chia Blockchain",
-  "productName": "Chia Blockchain",
+  "name": "avocado-blockchain",
+  "author": "Avocado Network <hello@avocadonetwork.net> (https://avocadonetwork.net/)",
+  "description": "GUI for Avocado Blockchain",
+  "productName": "Avocado Blockchain",
   "private": true,
   "homepage": "./",
   "main": "build/electron/main.js",

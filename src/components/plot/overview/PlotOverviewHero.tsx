@@ -2,8 +2,8 @@ import React from 'react';
 import { Trans } from '@lingui/macro';
 import { useHistory } from 'react-router-dom';
 import { Button, Grid, Typography, Divider } from '@material-ui/core';
-import { CardHero, Link } from '@chia/core';
-import { PlotHero as PlotHeroIcon } from '@chia/icons';
+import { CardHero, Link } from '@avocado/core';
+import { PlotHero as PlotHeroIcon } from '@avocado/icons';
 import PlotAddDirectoryDialog from '../PlotAddDirectoryDialog';
 import useOpenDialog from '../../../hooks/useOpenDialog';
 
@@ -27,11 +27,11 @@ export default function PlotOverviewHero() {
           <Typography variant="body1">
             <Trans>
               {
-                'Plots are allocated space on your hard drive used to farm and earn Chia. '
+                'Plots are allocated space on your hard drive used to farm and earn Avocado. '
               }
               <Link
                 target="_blank"
-                href="https://github.com/Chia-Network/chia-blockchain/wiki/Network-Architecture"
+                href="https://github.com/Avocado-Network/avocado-blockchain/wiki/Network-Architecture"
               >
                 Learn more
               </Link>

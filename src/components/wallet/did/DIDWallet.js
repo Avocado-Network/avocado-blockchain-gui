@@ -15,7 +15,7 @@ import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Backdrop from '@material-ui/core/Backdrop';
 import CircularProgress from '@material-ui/core/CircularProgress';
-import { AlertDialog, Card, Dropzone, Flex } from '@chia/core';
+import { AlertDialog, Card, Dropzone, Flex } from '@avocado/core';
 
 import {
   did_generate_backup_file,
@@ -31,7 +31,7 @@ import {
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import { Tooltip } from '@material-ui/core';
 import HelpIcon from '@material-ui/icons/Help';
-import { mojo_to_chia_string } from '../../../util/chia';
+import { slice_to_avocado_string } from '../../../util/avocado';
 import { useForm, Controller, useFieldArray } from 'react-hook-form';
 import { openDialog } from '../../../modules/dialog';
 import useCurrencyCode from '../../../hooks/useCurrencyCode';
@@ -474,7 +474,7 @@ const BalanceCardSubSection = (props) => {
           </Box>
           <Box>
             <Typography variant="subtitle1">
-              {mojo_to_chia_string(props.balance)} {currencyCode}
+              {slice_to_avocado_string(props.balance)} {currencyCode}
             </Typography>
           </Box>
         </Box>
@@ -776,7 +776,7 @@ const CreateAttest = (props) => {
       return;
     }
     let address = puzhash_input.value.trim();
-    if (address.substring(0, 12) === 'chia_addr://') {
+    if (address.substring(0, 12) === 'avocado_addr://') {
       address = address.substring(12);
     }
     if (address.startsWith('0x') || address.startsWith('0X')) {

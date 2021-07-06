@@ -6,16 +6,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: ko_KR\n"
-"Project-Id-Version: chia-blockchain\n"
+"Project-Id-Version: avocado-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2021-06-21 17:51\n"
 "Last-Translator: \n"
 "Language-Team: Korean\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Crowdin-Project: chia-blockchain\n"
+"X-Crowdin-Project: avocado-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: ko\n"
-"X-Crowdin-File: /[Chia-Network.chia-blockchain-gui] main/src/locales/en-US/messages.po\n"
+"X-Crowdin-File: /[Avocado-Network.avocado-blockchain-gui] main/src/locales/en-US/messages.po\n"
 "X-Crowdin-File-ID: 118\n"
 
 #: src/components/plot/add/PlotAddNFT.tsx:62
@@ -23,8 +23,8 @@ msgid "(Optional)"
 msgstr ""
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:64
-msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
-msgstr "Chia의 블록을 더 탐험하고 싶으십니까? 오픈 소스 개발자가 만든 <0>Chia Explorer</0>를 확인하세요."
+msgid "*Want to explore Avocado’s blocks further? Check out <0>Avocado Explorer</0> built by an open source developer."
+msgstr "Avocado의 블록을 더 탐험하고 싶으십니까? 오픈 소스 개발자가 만든 <0>Avocado Explorer</0>를 확인하세요."
 
 #: src/components/plot/add/PlotAddNFT.tsx:127
 msgid "+ Add New Plot NFT"
@@ -44,7 +44,7 @@ msgstr "수확기는 플롯이 실제 저장되어 구동되는 기기입니다.
 
 #: src/electron/main.tsx:422
 #: src/electron/main.tsx:509
-msgid "About Chia Blockchain"
+msgid "About Avocado Blockchain"
 msgstr "치아 블록체인에 대하여"
 
 #: src/components/trading/ViewOffer.jsx:74
@@ -207,8 +207,8 @@ msgid "Block VDF Iterations"
 msgstr "블록 VDF 반복"
 
 #: src/components/block/Block.jsx:338
-msgid "Block at height {0} in the Chia blockchain"
-msgstr "Chia 블록체인 높이 {0} 에 있는 블록"
+msgid "Block at height {0} in the Avocado blockchain"
+msgstr "Avocado 블록체인 높이 {0} 에 있는 블록"
 
 #: src/components/fullNode/FullNode.jsx:331
 #~ msgid "Block hash"
@@ -299,15 +299,15 @@ msgid "Chat on KeyBase"
 msgstr "키베이스에서 채팅하기"
 
 #: src/electron/main.tsx:419
-msgid "Chia"
+msgid "Avocado"
 msgstr "치아"
 
 #: src/electron/main.tsx:358
-msgid "Chia Blockchain Wiki"
+msgid "Avocado Blockchain Wiki"
 msgstr "치아 블록체인 위키"
 
 #: src/components/wallet/standard/WalletStandard.tsx:630
-msgid "Chia Wallet"
+msgid "Avocado Wallet"
 msgstr "치아 지갑"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:36
@@ -669,7 +669,7 @@ msgid "Edit"
 msgstr "편집"
 
 #: src/components/wallet/WalletImport.tsx:147
-msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
+msgid "Enter the 24 word mnemonic that you have saved in order to restore your Avocado wallet."
 msgstr "치아 지갑을 복구하기 위해서 24자로 된 니모닉 단어를 입력하세요."
 
 #: src/components/farm/FarmerStatus.tsx:21
@@ -683,7 +683,7 @@ msgid "Error"
 msgstr "오류"
 
 #: src/components/wallet/standard/WalletStandard.tsx:453
-msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
+msgid "Error: Cannot send avocado to coloured address. Please enter a avocado address."
 msgstr "에러: 치아를 컬러드 주소로 보낼 수 없습니다. 치아 주소를 입력하세요."
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:15
@@ -794,7 +794,7 @@ msgid "Fee"
 msgstr "수수료"
 
 #: src/components/wallet/coloured/WalletColoured.tsx:420
-#~ msgid "Fee (TXCH)"
+#~ msgid "Fee (TAVO)"
 #~ msgstr ""
 
 #: src/components/wallet/coloured/WalletColoured.tsx:420
@@ -986,15 +986,15 @@ msgid "Join a Pool"
 msgstr ""
 
 #: src/components/plot/add/PlotAddNFT.tsx:44
-msgid "Join a pool and get consistent XCH farming rewards. The average returns are the same, but it is much less volatile."
+msgid "Join a pool and get consistent AVO farming rewards. The average returns are the same, but it is much less volatile."
 msgstr ""
 
 #: src/components/plotNFT/PlotNFTAdd.tsx:59
-msgid "Join a pool and get consistent XCH farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a plot NFT. You can easily switch pools without having to re-plot."
+msgid "Join a pool and get consistent AVO farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a plot NFT. You can easily switch pools without having to re-plot."
 msgstr ""
 
 #: src/components/plot/add/PlotAddNFT.tsx:137
-msgid "Join a pool and get more consistent XCH farming rewards. Create a plot NFT and assign your new plots to a group."
+msgid "Join a pool and get more consistent AVO farming rewards. Create a plot NFT and assign your new plots to a group."
 msgstr ""
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:63
@@ -1219,7 +1219,7 @@ msgid "Not found Plots"
 msgstr "플롯을 찾지 못했습니다"
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:186
-msgid "Note that this does not change your pooling payout addresses. This only affects old format plots, and the 0.25XCH reward for pooling plots."
+msgid "Note that this does not change your pooling payout addresses. This only affects old format plots, and the 0.25AVO reward for pooling plots."
 msgstr ""
 
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:95
@@ -1431,8 +1431,8 @@ msgid "Plots Passed Filter"
 msgstr "필터 통과된 구성들"
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:28
-msgid "Plots are allocated space on your hard drive used to farm and earn Chia. <0>Learn more</0>"
-msgstr "구성들은 나의 하드 드라이브에 적재되어 Chia를 채굴하고 모읍니다. <0>더보기</0>"
+msgid "Plots are allocated space on your hard drive used to farm and earn Avocado. <0>Learn more</0>"
+msgstr "구성들은 나의 하드 드라이브에 적재되어 Avocado를 채굴하고 모읍니다. <0>더보기</0>"
 
 #: src/components/plot/queue/PlotQueueIndicator.tsx:34
 msgid "Plotting"
@@ -1765,7 +1765,7 @@ msgid "Self Pooling"
 msgstr ""
 
 #: src/components/plotNFT/select/PlotNFTSelectBase.tsx:105
-msgid "Self pool. When you win a block you will earn XCH rewards."
+msgid "Self pool. When you win a block you will earn AVO rewards."
 msgstr ""
 
 #: src/components/trading/CreateOffer.jsx:164
@@ -1818,7 +1818,7 @@ msgid "Skips adding a final directory to harvester for farming"
 msgstr "농업용 수확기에 최종 디렉토리 추가 건너뛰기"
 
 #: src/components/pool/PoolHero.tsx:26
-msgid "Smooth out your XCH farming rewards by joining a pool."
+msgid "Smooth out your AVO farming rewards by joining a pool."
 msgstr ""
 
 #: src/electron/main.tsx:470
@@ -1850,8 +1850,8 @@ msgstr "지출 간격 길이 (블록 수)"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:401
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:448
-msgid "Spending Limit (chia per interval): {0}"
-msgstr "지출 한도 (간격 당 chia): {0}"
+msgid "Spending Limit (avocado per interval): {0}"
+msgstr "지출 한도 (간격 당 avocado): {0}"
 
 #: src/components/fullNode/FullNode.jsx:100
 msgid "State"
@@ -1899,8 +1899,8 @@ msgstr "상태:"
 #~ msgstr "Sub Block Height"
 
 #: src/components/block/Block.jsx:338
-#~ msgid "Sub Block at height {0} in the Chia blockchain"
-#~ msgstr "Sub Block at height {0} in the Chia blockchain"
+#~ msgid "Sub Block at height {0} in the Avocado blockchain"
+#~ msgstr "Sub Block at height {0} in the Avocado blockchain"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:347
 msgid "Submit"
@@ -1927,23 +1927,23 @@ msgstr "동기화 중... <0/> / <1/>"
 #~ msgstr "Syncing {progress}/{tip}"
 
 #: src/components/farm/card/FarmCardBlockRewards.tsx:15
-#~ msgid "TXCH Block Rewards"
+#~ msgid "TAVO Block Rewards"
 #~ msgstr ""
 
 #: src/components/farm/card/FarmCardCoinbaseRewards.tsx:12
-#~ msgid "TXCH Farming Rewards"
+#~ msgid "TAVO Farming Rewards"
 #~ msgstr ""
 
 #: src/components/farm/card/FarmCardFeesReward.tsx:12
-#~ msgid "TXCH Fees Collected"
+#~ msgid "TAVO Fees Collected"
 #~ msgstr ""
 
 #: src/components/farm/card/FarmCardUserFees.tsx:12
-#~ msgid "TXCH User Fees"
-#~ msgstr "TXCH User Fees"
+#~ msgid "TAVO User Fees"
+#~ msgstr "TAVO User Fees"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:15
-#~ msgid "TXCH User Transaction Fees"
+#~ msgid "TAVO User Transaction Fees"
 #~ msgstr ""
 
 #: src/components/pool/PoolInfo.tsx:37
@@ -2027,8 +2027,8 @@ msgid "This feature is available only from the GUI."
 msgstr "이 기능은 GUI에서만 사용 가능합니다."
 
 #: src/components/wallet/card/WalletCardSpendableBalance.tsx:26
-msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
-msgstr "이것은 거래를하기 위해 현재 사용할 수있는 Chia의 양입니다. 여기에는 보류중인 농업 보상, 보류중인 수신 거래 및 방금 지출했지만 아직 블록 체인에 포함되지 않은 Chia는 포함되지 않습니다."
+msgid "This is the amount of Avocado that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Avocado that you have just spent but is not yet in the blockchain."
+msgstr "이것은 거래를하기 위해 현재 사용할 수있는 Avocado의 양입니다. 여기에는 보류중인 농업 보상, 보류중인 수신 거래 및 방금 지출했지만 아직 블록 체인에 포함되지 않은 Avocado는 포함되지 않습니다."
 
 #: src/components/wallet/card/WalletCardPendingChange.tsx:26
 msgid "This is the pending change, which are change coins which you have sent to yourself, but have not been confirmed yet."
@@ -2047,8 +2047,8 @@ msgid "This is the time the block was created by the farmer, which is before it 
 msgstr "이것은 농부가 블록을 만든 시간이며 시간 증명으로 완성되기 전입니다."
 
 #: src/components/wallet/card/WalletCardTotalBalance.tsx:34
-msgid "This is the total amount of chia in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
-msgstr "이것은 개인 키에 의해 제어되는 현재 피크 하위 블록에서 블록 체인의 총 chia 양입니다. 여기에는 냉동 농업 보상이 포함되지만 보류중인 들어오고 나가는 거래는 포함되지 않습니다."
+msgid "This is the total amount of avocado in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+msgstr "이것은 개인 키에 의해 제어되는 현재 피크 하위 블록에서 블록 체인의 총 avocado 양입니다. 여기에는 냉동 농업 보상이 포함되지만 보류중인 들어오고 나가는 거래는 포함되지 않습니다."
 
 #: src/components/wallet/card/WalletCardPendingTotalBalance.tsx:29
 msgid "This is the total balance + pending balance: it is what your balance will be after all pending transactions are confirmed."
@@ -2089,8 +2089,8 @@ msgid "This trade was included on blockchain at this block height"
 msgstr "이 거래는이 block height 에서 블록 체인에 포함되었습니다."
 
 #: src/components/app/AppTimeBombAlert.tsx:19
-msgid "This version of Chia is no longer compatible with the blockchain and can not safely farm."
-msgstr "이 버전의 Chia는 더 이상 블록 체인과 호환되지 않으며 안전하게 파밍 할 수 없습니다."
+msgid "This version of Avocado is no longer compatible with the blockchain and can not safely farm."
+msgstr "이 버전의 Avocado는 더 이상 블록 체인과 호환되지 않으며 안전하게 파밍 할 수 없습니다."
 
 #: src/components/fullNode/FullNode.jsx:92
 msgid "Time Created"
@@ -2114,8 +2114,8 @@ msgstr "수신"
 msgid "Total Balance"
 msgstr "총 잔고"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:15
-#~ msgid "Total Chia Farmed"
+#: src/components/farm/card/FarmCardTotalAvocadoFarmed.tsx:15
+#~ msgid "Total Avocado Farmed"
 #~ msgstr ""
 
 #: src/components/fullNode/card/FullNodeCardTotalIterations.tsx:21
@@ -2278,7 +2278,7 @@ msgstr ""
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:30
-#~ msgid "WalletItem.chiaWallet"
+#~ msgid "WalletItem.avocadoWallet"
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:48
@@ -2315,8 +2315,8 @@ msgid "Want to Join a Pool? Create a Plot NFT"
 msgstr ""
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:133
-msgid "Want to earn more Chia? Add more plots to your farm."
-msgstr "Chia를 더 얻고 싶다면, 더 많은 플롯들을 당신의 농장에 추가하세요."
+msgid "Want to earn more Avocado? Add more plots to your farm."
+msgstr "Avocado를 더 얻고 싶다면, 더 많은 플롯들을 당신의 농장에 추가하세요."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:86
 msgid "Want to have a delay before the next plot starts?"
@@ -2331,8 +2331,8 @@ msgid "Weight is the total added difficulty of all sub blocks up to and includin
 msgstr "무게는 이것을 포함하여 모든 서브 블록의 총 추가 난이도입니다."
 
 #: src/components/selectKey/SelectKey.tsx:114
-msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
-msgstr "Chia에 오신 것을 환영합니다. 사용하고 계신 키로 로그인하시거나 새로운 키를 만드세요."
+msgid "Welcome to Avocado. Please log in with an existing key, or create a new key."
+msgstr "Avocado에 오신 것을 환영합니다. 사용하고 계신 키로 로그인하시거나 새로운 키를 만드세요."
 
 #: src/components/wallet/WalletAdd.tsx:66
 msgid "Welcome! The following words are used for your wallet backup. Without them, you will lose access to your wallet, keep them safe! Write down each word along with the order number next to them. (Order is important)"
@@ -2402,8 +2402,8 @@ msgid "You need to claim your rewards first"
 msgstr ""
 
 #: src/components/app/AppTimeBomb.tsx:28
-#~ msgid "You need to upgrade the Chia application as this version will stop working soon!"
-#~ msgstr "You need to upgrade the Chia application as this version will stop working soon!"
+#~ msgid "You need to upgrade the Avocado application as this version will stop working soon!"
+#~ msgstr "You need to upgrade the Avocado application as this version will stop working soon!"
 
 #: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:135
 msgid "You will recieve <0/> to {0}"
@@ -2486,14 +2486,14 @@ msgstr ""
 msgid "{currencyCode} Block Rewards"
 msgstr "{currencyCode} 블록 보상"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:29
-msgid "{currencyCode} Total Chia Farmed"
-msgstr "{currencyCode} 채굴된 총 Chia"
+#: src/components/farm/card/FarmCardTotalAvocadoFarmed.tsx:29
+msgid "{currencyCode} Total Avocado Farmed"
+msgstr "{currencyCode} 채굴된 총 Avocado"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:28
 msgid "{currencyCode} User Transaction Fees"
 msgstr "{currencyCode} 사용자 거래 수수료"
 
 #: src/components/core/components/Amount/Amount.tsx:52
-msgid "{mojo, plural, one {mojo} other {mojos}}"
+msgid "{slices, plural, one {slices} other {slicess}}"
 msgstr ""

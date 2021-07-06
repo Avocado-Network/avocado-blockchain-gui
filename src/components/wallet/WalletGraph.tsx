@@ -2,14 +2,14 @@ import React, { ReactNode } from 'react';
 import { linearGradientDef } from '@nivo/core';
 import { ResponsiveLine } from '@nivo/line';
 import { orderBy, groupBy, sumBy, map } from 'lodash';
-// import { Flex, FormatLargeNumber } from '@chia/core';
+// import { Flex, FormatLargeNumber } from '@avocado/core';
 import { /* Typography, */ Paper } from '@material-ui/core';
 import styled from 'styled-components';
 import useWallet from '../../hooks/useWallet';
 import TransactionType from '../../constants/TransactionType';
 import type Transaction from '../../types/Transaction';
 import type Peak from '../../types/Peak';
-import { mojo_to_chia } from '../../util/chia';
+import { slice_to_avocado } from '../../util/avocado';
 import usePeak from '../../hooks/usePeak';
 import useCurrencyCode from '../../hooks/useCurrencyCode';
 import blockHeightToTimestamp from '../../util/blockHeightToTimestamp';
@@ -197,8 +197,8 @@ function prepareGraphPoints(
   const points = [
     {
       x: peak.height,
-      y: mojo_to_chia(start),
-      tooltip: mojo_to_chia(balance),
+      y: slice_to_avocado(start),
+      tooltip: slice_to_avocado(balance),
     },
   ];
 
@@ -209,8 +209,8 @@ function prepareGraphPoints(
 
     points.push({
       x: timestamp,
-      y: mojo_to_chia(start),
-      tooltip: mojo_to_chia(start),
+      y: slice_to_avocado(start),
+      tooltip: slice_to_avocado(start),
     });
   });
 

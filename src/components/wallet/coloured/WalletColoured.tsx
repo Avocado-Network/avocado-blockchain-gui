@@ -3,7 +3,7 @@ import Grid from '@material-ui/core/Grid';
 import { makeStyles } from '@material-ui/core/styles';
 import { useDispatch, useSelector } from 'react-redux';
 import { Trans } from '@lingui/macro';
-import { AlertDialog, Card, Flex } from '@chia/core';
+import { AlertDialog, Card, Flex } from '@avocado/core';
 import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import {
@@ -21,9 +21,9 @@ import {
   rename_cc_wallet,
 } from '../../../modules/message';
 import {
-  mojo_to_colouredcoin_string,
-  colouredcoin_to_mojo,
-} from '../../../util/chia';
+  slice_to_colouredcoin_string,
+  colouredcoin_to_slice,
+} from '../../../util/avocado';
 import { openDialog } from '../../../modules/dialog';
 import { get_transaction_result } from '../../../util/transaction_result';
 import config from '../../../config/config';
@@ -290,7 +290,7 @@ function BalanceCardSubSection(props: BalanceCardSubSectionProps) {
         </Box>
         <Box>
           <Typography variant="subtitle1">
-            {mojo_to_colouredcoin_string(props.balance)} {cc_unit}
+            {slice_to_colouredcoin_string(props.balance)} {cc_unit}
           </Typography>
         </Box>
       </Box>
@@ -346,15 +346,15 @@ function BalanceCard(props: BalanceCardProps) {
   const balancebox_unit = ` ${cc_unit}`;
   const balancebox_hline =
     "<tr><td colspan='2' style='text-align:center'><hr width='50%'></td></tr>";
-  const balance_ptotal_chia = mojo_to_colouredcoin_string(balance_ptotal);
-  const balance_pending_chia = mojo_to_colouredcoin_string(balance_pending);
-  const balance_change_chia = mojo_to_colouredcoin_string(balance_change);
+  const balance_ptotal_avocado = slice_to_colouredcoin_string(balance_ptotal);
+  const balance_pending_avocado = slice_to_colouredcoin_string(balance_pending);
+  const balance_change_avocado = slice_to_colouredcoin_string(balance_change);
   const acc_content =
     balancebox_1 +
     balancebox_2 +
     balancebox_ptotal +
     balancebox_3 +
-    balance_ptotal_chia +
+    balance_ptotal_avocado +
     balancebox_unit +
     balancebox_hline +
     balancebox_4 +
@@ -362,14 +362,14 @@ function BalanceCard(props: BalanceCardProps) {
     balancebox_2 +
     balancebox_pending +
     balancebox_3 +
-    balance_pending_chia +
+    balance_pending_avocado +
     balancebox_unit +
     balancebox_4 +
     balancebox_row +
     balancebox_2 +
     balancebox_change +
     balancebox_3 +
-    balance_change_chia +
+    balance_change_avocado +
     balancebox_unit +
     balancebox_5;
 
@@ -486,10 +486,10 @@ function SendCard(props: SendCardProps) {
       return;
     }
 
-    const amount = colouredcoin_to_mojo(amount_input.value);
-    const fee = colouredcoin_to_mojo(fee_input.value);
+    const amount = colouredcoin_to_slice(amount_input.value);
+    const fee = colouredcoin_to_slice(fee_input.value);
 
-    if (address.includes('chia_addr') || address.includes('colour_desc')) {
+    if (address.includes('avocado_addr') || address.includes('colour_desc')) {
       dispatch(
         openDialog(
           <AlertDialog>
