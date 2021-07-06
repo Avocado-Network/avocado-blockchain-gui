@@ -64,13 +64,13 @@ export default function PlotNFTAbsorbRewards(props: Props) {
 
       const { fee } = data;
 
-      const feeMojos = avocado_to_slice(fee);
+      const feeSlices = avocado_to_slice(fee);
 
       if (walletId === undefined || !address) {
         return;
       }
 
-      await dispatch(pwAbsorbRewards(walletId, feeMojos));
+      await dispatch(pwAbsorbRewards(walletId, feeSlices));
 
       if (history.length) {
         history.goBack();

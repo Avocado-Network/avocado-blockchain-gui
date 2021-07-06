@@ -987,12 +987,12 @@ msgstr "Připojit se k poolu"
 
 #: src/components/plot/add/PlotAddNFT.tsx:44
 <<<<<<< HEAD
-msgid "Join a pool and get consistent XCH farming rewards. The average returns are the same, but it is much less volatile."
-msgstr "Připojte se k poolu a získejte konzistentní odměnu XCH. Průměrné výnosy jsou stejné, ale mnohem méně volatilní."
+msgid "Join a pool and get consistent AVO farming rewards. The average returns are the same, but it is much less volatile."
+msgstr "Připojte se k poolu a získejte konzistentní odměnu AVO. Průměrné výnosy jsou stejné, ale mnohem méně volatilní."
 
 #: src/components/plotNFT/PlotNFTAdd.tsx:59
-msgid "Join a pool and get consistent XCH farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a plot NFT. You can easily switch pools without having to re-plot."
-msgstr "Připojte se ke sdružení a získejte konzistentní odměnu XCH. Průměrné výnosy jsou stejné, ale mnohem méně volatilní. Přiřaďte vykreslování k NFT. Můžete snadno přepínat sdružení, aniž byste museli znovu vykreslovat."
+msgid "Join a pool and get consistent AVO farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a plot NFT. You can easily switch pools without having to re-plot."
+msgstr "Připojte se ke sdružení a získejte konzistentní odměnu AVO. Průměrné výnosy jsou stejné, ale mnohem méně volatilní. Přiřaďte vykreslování k NFT. Můžete snadno přepínat sdružení, aniž byste museli znovu vykreslovat."
 =======
 msgid "Join a pool and get consistent AVO farming rewards. The average returns are the same, but it is much less volatile."
 msgstr ""

@@ -41,10 +41,10 @@ async function prepareSubmitData(data: FormData): SubmitData {
     initialTargetState.relative_lock_height = relative_lock_height;
   }
 
-  const feeMojos = avocado_to_slice(fee);
+  const feeSlices = avocado_to_slice(fee);
 
   return {
-    fee: feeMojos,
+    fee: feeSlices,
     initialTargetState,
   };
 }

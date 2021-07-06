@@ -24,8 +24,8 @@ msgid "(Optional)"
 msgstr ""
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:64
-msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
-msgstr "* רוצה לחקור את הבלוקים של צ'יה עוד? בדוק את </0>Chia Explorer<0> שנבנה על ידי מפתח קוד פתוח."
+msgid "*Want to explore Avocado’s blocks further? Check out <0>Avocado Explorer</0> built by an open source developer."
+msgstr "* רוצה לחקור את הבלוקים של צ'יה עוד? בדוק את </0>Avocado Explorer<0> שנבנה על ידי מפתח קוד פתוח."
 =======
 #: src/components/farm/FarmLatestBlockChallenges.tsx:70
 msgid "*Want to explore Avocado’s blocks further? Check out <0>Avocado Explorer</0> built by an open source developer."
@@ -51,7 +51,7 @@ msgstr "קציר הוא שירות המופעל במכונה בה מאוחסנ/�
 <<<<<<< HEAD
 #: src/electron/main.tsx:422
 #: src/electron/main.tsx:509
-msgid "About Chia Blockchain"
+msgid "About Avocado Blockchain"
 =======
 #: src/electron/main.tsx:423
 #: src/electron/main.tsx:510
@@ -220,7 +220,7 @@ msgstr "בלוק VDF איטרציות"
 
 <<<<<<< HEAD
 #: src/components/block/Block.jsx:338
-msgid "Block at height {0} in the Chia blockchain"
+msgid "Block at height {0} in the Avocado blockchain"
 =======
 #: src/components/block/Block.jsx:311
 msgid "Block at height {0} in the Avocado blockchain"
@@ -317,15 +317,15 @@ msgstr ""
 
 <<<<<<< HEAD
 #: src/electron/main.tsx:419
-msgid "Chia"
+msgid "Avocado"
 msgstr "צ'יה"
 
 #: src/electron/main.tsx:358
-msgid "Chia Blockchain Wiki"
+msgid "Avocado Blockchain Wiki"
 msgstr "ארנק צ'יה"
 
 #: src/components/wallet/standard/WalletStandard.tsx:630
-msgid "Chia Wallet"
+msgid "Avocado Wallet"
 =======
 #: src/electron/main.tsx:420
 msgid "Avocado"
@@ -700,7 +700,7 @@ msgstr "עריכה"
 
 <<<<<<< HEAD
 #: src/components/wallet/WalletImport.tsx:147
-msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
+msgid "Enter the 24 word mnemonic that you have saved in order to restore your Avocado wallet."
 =======
 #: src/components/wallet/WalletImport.tsx:142
 msgid "Enter the 24 word mnemonic that you have saved in order to restore your Avocado wallet."
@@ -719,7 +719,7 @@ msgstr "שגיאה"
 
 <<<<<<< HEAD
 #: src/components/wallet/standard/WalletStandard.tsx:453
-msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
+msgid "Error: Cannot send avocado to coloured address. Please enter a avocado address."
 =======
 #: src/components/wallet/standard/WalletStandard.tsx:415
 msgid "Error: Cannot send avocado to coloured address. Please enter a avocado address."
@@ -1026,15 +1026,15 @@ msgid "Join a Pool"
 msgstr ""
 
 #: src/components/plot/add/PlotAddNFT.tsx:44
-msgid "Join a pool and get consistent XCH farming rewards. The average returns are the same, but it is much less volatile."
+msgid "Join a pool and get consistent AVO farming rewards. The average returns are the same, but it is much less volatile."
 msgstr ""
 
 #: src/components/plotNFT/PlotNFTAdd.tsx:59
-msgid "Join a pool and get consistent XCH farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a plot NFT. You can easily switch pools without having to re-plot."
+msgid "Join a pool and get consistent AVO farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a plot NFT. You can easily switch pools without having to re-plot."
 msgstr ""
 
 #: src/components/plot/add/PlotAddNFT.tsx:137
-msgid "Join a pool and get more consistent XCH farming rewards. Create a plot NFT and assign your new plots to a group."
+msgid "Join a pool and get more consistent AVO farming rewards. Create a plot NFT and assign your new plots to a group."
 msgstr ""
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:63
@@ -1259,7 +1259,7 @@ msgid "Not found Plots"
 msgstr ""
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:186
-msgid "Note that this does not change your pooling payout addresses. This only affects old format plots, and the 0.25XCH reward for pooling plots."
+msgid "Note that this does not change your pooling payout addresses. This only affects old format plots, and the 0.25AVO reward for pooling plots."
 msgstr ""
 
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:95
@@ -1472,7 +1472,7 @@ msgstr ""
 
 <<<<<<< HEAD
 #: src/components/plot/overview/PlotOverviewHero.tsx:28
-msgid "Plots are allocated space on your hard drive used to farm and earn Chia. <0>Learn more</0>"
+msgid "Plots are allocated space on your hard drive used to farm and earn Avocado. <0>Learn more</0>"
 =======
 #: src/components/plot/overview/PlotOverviewHero.tsx:30
 msgid "Plots are allocated space on your hard drive used to farm and earn Avocado. <0>Learn more</0>"
@@ -1810,7 +1810,7 @@ msgid "Self Pooling"
 msgstr ""
 
 #: src/components/plotNFT/select/PlotNFTSelectBase.tsx:105
-msgid "Self pool. When you win a block you will earn XCH rewards."
+msgid "Self pool. When you win a block you will earn AVO rewards."
 msgstr ""
 
 #: src/components/trading/CreateOffer.jsx:164
@@ -1863,7 +1863,7 @@ msgid "Skips adding a final directory to harvester for farming"
 msgstr ""
 
 #: src/components/pool/PoolHero.tsx:26
-msgid "Smooth out your XCH farming rewards by joining a pool."
+msgid "Smooth out your AVO farming rewards by joining a pool."
 msgstr ""
 
 #: src/electron/main.tsx:470
@@ -1896,7 +1896,7 @@ msgstr ""
 <<<<<<< HEAD
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:401
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:448
-msgid "Spending Limit (chia per interval): {0}"
+msgid "Spending Limit (avocado per interval): {0}"
 =======
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:415
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:466
@@ -2079,7 +2079,7 @@ msgstr ""
 
 <<<<<<< HEAD
 #: src/components/wallet/card/WalletCardSpendableBalance.tsx:26
-msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
+msgid "This is the amount of Avocado that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Avocado that you have just spent but is not yet in the blockchain."
 =======
 #: src/components/wallet/standard/WalletStandard.tsx:264
 msgid "This is the amount of Avocado that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Avocado that you have just spent but is not yet in the blockchain."
@@ -2104,7 +2104,7 @@ msgstr ""
 
 <<<<<<< HEAD
 #: src/components/wallet/card/WalletCardTotalBalance.tsx:34
-msgid "This is the total amount of chia in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+msgid "This is the total amount of avocado in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
 =======
 #: src/components/wallet/standard/WalletStandard.tsx:252
 msgid "This is the total amount of avocado in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
@@ -2151,7 +2151,7 @@ msgstr ""
 
 <<<<<<< HEAD
 #: src/components/app/AppTimeBombAlert.tsx:19
-msgid "This version of Chia is no longer compatible with the blockchain and can not safely farm."
+msgid "This version of Avocado is no longer compatible with the blockchain and can not safely farm."
 =======
 #: src/components/app/AppTimeBombAlert.tsx:18
 msgid "This version of Avocado is no longer compatible with the blockchain and can not safely farm."
@@ -2382,7 +2382,7 @@ msgid "Want to Join a Pool? Create a Plot NFT"
 msgstr ""
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:133
-msgid "Want to earn more Chia? Add more plots to your farm."
+msgid "Want to earn more Avocado? Add more plots to your farm."
 =======
 #: src/components/plot/overview/PlotOverviewPlots.tsx:107
 msgid "Want to earn more Avocado? Add more plots to your farm."
@@ -2403,7 +2403,7 @@ msgstr ""
 
 <<<<<<< HEAD
 #: src/components/selectKey/SelectKey.tsx:114
-msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
+msgid "Welcome to Avocado. Please log in with an existing key, or create a new key."
 =======
 #: src/components/selectKey/SelectKey.tsx:115
 msgid "Welcome to Avocado. Please log in with an existing key, or create a new key."
@@ -2571,6 +2571,6 @@ msgid "{currencyCode} User Transaction Fees"
 msgstr ""
 
 #: src/components/core/components/Amount/Amount.tsx:52
-msgid "{mojo, plural, one {mojo} other {mojos}}"
+msgid "{slice, plural, one {slice} other {slices}}"
 msgstr ""
 
