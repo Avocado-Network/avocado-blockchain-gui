@@ -12,10 +12,10 @@ import {
   Button,
   InputLabel,
 } from '@material-ui/core';
-import { AlertDialog, Card, Flex } from '@chia/core';
+import { AlertDialog, Card, Flex } from '@avocado/core';
 import isElectron from 'is-electron';
 import { newBuy, newSell, addTrade, resetTrades } from '../../modules/trade';
-import { chia_to_mojo, colouredcoin_to_mojo } from '../../util/chia';
+import { avocado_to_slice, colouredcoin_to_slice } from '../../util/avocado';
 import { openDialog } from '../../modules/dialog';
 import { create_trade_action } from '../../modules/trade_messages';
 import { COLOURED_COIN } from '../../util/wallet_types';
@@ -79,15 +79,15 @@ export default function CreateOffer() {
       );
       return;
     }
-    const mojo =
+    const slice =
       wallets[wallet_id.value].type === COLOURED_COIN
-        ? colouredcoin_to_mojo(amount_input.value)
-        : chia_to_mojo(amount_input.value);
+        ? colouredcoin_to_slice(amount_input.value)
+        : avocado_to_slice(amount_input.value);
 
     const trade =
       buy_or_sell.value === 1
-        ? newBuy(mojo, wallet_id.value)
-        : newSell(mojo, wallet_id.value);
+        ? newBuy(slice, wallet_id.value)
+        : newSell(slice, wallet_id.value);
 
     dispatch(addTrade(trade));
   }

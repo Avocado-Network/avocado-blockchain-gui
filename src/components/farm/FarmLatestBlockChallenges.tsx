@@ -2,7 +2,7 @@ import React from 'react';
 import { Trans } from '@lingui/macro';
 import { useSelector } from 'react-redux';
 import { Typography } from '@material-ui/core';
-import { Link, Table, Card } from '@chia/core';
+import { Link, Table, Card } from '@avocado/core';
 import type { RootState } from '../../modules/rootReducer';
 import type { Row } from '../core/components/Table/Table';
 
@@ -62,13 +62,13 @@ export default function FarmLatestBlockChallenges() {
       />
       <Typography variant="caption">
         <Trans>
-          *Want to explore Chia’s blocks further? Check out{' '}
+          *Want to explore Avocado’s blocks further? Check out{' '}
           <Link
             color="primary"
-            href="https://www.chiaexplorer.com/"
+            href="https://www.avocadoexplorer.com/"
             target="_blank"
           >
-            Chia Explorer
+            Avocado Explorer
           </Link>{' '}
           built by an open source developer.
         </Trans>

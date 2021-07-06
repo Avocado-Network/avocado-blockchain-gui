@@ -2,13 +2,13 @@ const units = require('../../util/units');
 
 describe('units', () => {
   describe('#getUnit', () => {
-    it('gets unit of chia', () => {
-      const result = units.getUnit('chia');
+    it('gets unit of avocado', () => {
+      const result = units.getUnit('avocado');
 
       expect(result).toBe(1);
     });
-    it('gets unit of mojo', () => {
-      const result = units.getUnit('mojo');
+    it('gets unit of slice', () => {
+      const result = units.getUnit('slice');
 
       expect(result).toBe(1e-12);
     });
@@ -18,16 +18,16 @@ describe('units', () => {
       expect(result).toBe(1e-9);
     });
     it('supports uppercase characters', () => {
-      const result = units.getUnit('CHIA');
+      const result = units.getUnit('AVOCADO');
 
       expect(result).toBe(1);
     });
-    it('gets unit of chia using alias', () => {
+    it('gets unit of avocado using alias', () => {
       const result = units.getUnit('ch');
 
       expect(result).toBe(1);
     });
-    it('gets unit of mojo using alias', () => {
+    it('gets unit of slice using alias', () => {
       const result = units.getUnit('mj');
 
       expect(result).toBe(1e-12);
@@ -46,16 +46,16 @@ describe('units', () => {
     });
   });
   describe('#getDisplay', () => {
-    it('gets display of chia', () => {
-      const result = units.getDisplay('chia');
+    it('gets display of avocado', () => {
+      const result = units.getDisplay('avocado');
 
       expect(result).toEqual({
         format: '{amount} CH',
         fractionDigits: 12,
       });
     });
-    it('gets display of mojo', () => {
-      const result = units.getDisplay('mojo');
+    it('gets display of slice', () => {
+      const result = units.getDisplay('slice');
 
       expect(result).toEqual({
         format: '{amount} MJ',
@@ -87,13 +87,13 @@ describe('units', () => {
       expect(result).toEqual(1);
     });
     it('modifies an existing unit', () => {
-      units.setUnit('chia', 9);
+      units.setUnit('avocado', 9);
 
-      const result = units.getUnit('chia');
+      const result = units.getUnit('avocado');
 
       expect(result).toEqual(9);
 
-      units.setUnit('chia', 1);
+      units.setUnit('avocado', 1);
     });
   });
   describe('#setDisplay', () => {
@@ -111,15 +111,15 @@ describe('units', () => {
       });
     });
     it('updates an existing display', () => {
-      units.setDisplay('chia', {
-        format: '{amount} TXCH',
+      units.setDisplay('avocado', {
+        format: '{amount} TAVO',
         fractionDigits: 0,
       });
 
-      const result = units.getDisplay('chia');
+      const result = units.getDisplay('avocado');
 
       expect(result).toEqual({
-        format: '{amount} TXCH',
+        format: '{amount} TAVO',
         fractionDigits: 0,
       });
     });

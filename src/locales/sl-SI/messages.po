@@ -6,18 +6,19 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: sl_SI\n"
-"Project-Id-Version: chia-blockchain\n"
+"Project-Id-Version: avocado-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2021-06-30 06:04\n"
 "Last-Translator: \n"
 "Language-Team: Slovenian\n"
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n%100==4 ? 3 : 0);\n"
-"X-Crowdin-Project: chia-blockchain\n"
+"X-Crowdin-Project: avocado-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: sl\n"
-"X-Crowdin-File: /[Chia-Network.chia-blockchain-gui] main/src/locales/en-US/messages.po\n"
+"X-Crowdin-File: /[Avocado-Network.avocado-blockchain-gui] main/src/locales/en-US/messages.po\n"
 "X-Crowdin-File-ID: 118\n"
 
+<<<<<<< HEAD
 #: src/components/plot/add/PlotAddNFT.tsx:62
 msgid "(Optional)"
 msgstr ""
@@ -25,6 +26,11 @@ msgstr ""
 #: src/components/farm/FarmLatestBlockChallenges.tsx:64
 msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
 msgstr "*Želite raziskovati Chia bloke? Preverite odprtokodni <0>Chia Explorer</0>."
+=======
+#: src/components/farm/FarmLatestBlockChallenges.tsx:70
+msgid "*Want to explore Avocado’s blocks further? Check out <0>Avocado Explorer</0> built by an open source developer."
+msgstr "*Želite raziskovati Avocado bloke? Preverite odprtokodni <0>Avocado Explorer</0>."
+>>>>>>> tmp
 
 #: src/components/plot/add/PlotAddNFT.tsx:127
 msgid "+ Add New Plot NFT"
@@ -42,10 +48,17 @@ msgstr ""
 msgid "A harvester is a service running on a machine where plot(s) are actually stored. A farmer and harvester talk to a full node to see the state of the chain. View your network of connected harvesters below Learn more"
 msgstr ""
 
+<<<<<<< HEAD
 #: src/electron/main.tsx:422
 #: src/electron/main.tsx:509
 msgid "About Chia Blockchain"
 msgstr "O Chia"
+=======
+#: src/electron/main.tsx:423
+#: src/electron/main.tsx:510
+msgid "About Avocado Blockchain"
+msgstr "O Avocado"
+>>>>>>> tmp
 
 #: src/components/trading/ViewOffer.jsx:74
 msgid "Accept"
@@ -206,8 +219,13 @@ msgstr "Blok test"
 msgid "Block VDF Iterations"
 msgstr ""
 
+<<<<<<< HEAD
 #: src/components/block/Block.jsx:338
 msgid "Block at height {0} in the Chia blockchain"
+=======
+#: src/components/block/Block.jsx:311
+msgid "Block at height {0} in the Avocado blockchain"
+>>>>>>> tmp
 msgstr ""
 
 #: src/components/fullNode/FullNode.jsx:331
@@ -298,6 +316,7 @@ msgstr ""
 msgid "Chat on KeyBase"
 msgstr "Klepet na KeyBase"
 
+<<<<<<< HEAD
 #: src/electron/main.tsx:419
 msgid "Chia"
 msgstr "Chia"
@@ -309,6 +328,19 @@ msgstr "Chia blockchain wiki"
 #: src/components/wallet/standard/WalletStandard.tsx:630
 msgid "Chia Wallet"
 msgstr "Chia denarnica"
+=======
+#: src/electron/main.tsx:420
+msgid "Avocado"
+msgstr "Avocado"
+
+#: src/electron/main.tsx:359
+msgid "Avocado Blockchain Wiki"
+msgstr "Avocado blockchain wiki"
+
+#: src/components/wallet/Wallets.tsx:56
+msgid "Avocado Wallet"
+msgstr "Avocado denarnica"
+>>>>>>> tmp
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:36
 msgid "Choose Number of Plots"
@@ -668,8 +700,13 @@ msgstr ""
 msgid "Edit"
 msgstr "Uredi"
 
+<<<<<<< HEAD
 #: src/components/wallet/WalletImport.tsx:147
 msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
+=======
+#: src/components/wallet/WalletImport.tsx:142
+msgid "Enter the 24 word mnemonic that you have saved in order to restore your Avocado wallet."
+>>>>>>> tmp
 msgstr ""
 
 #: src/components/farm/FarmerStatus.tsx:21
@@ -682,8 +719,13 @@ msgstr ""
 msgid "Error"
 msgstr "Napaka"
 
+<<<<<<< HEAD
 #: src/components/wallet/standard/WalletStandard.tsx:453
 msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
+=======
+#: src/components/wallet/standard/WalletStandard.tsx:415
+msgid "Error: Cannot send avocado to coloured address. Please enter a avocado address."
+>>>>>>> tmp
 msgstr ""
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:15
@@ -794,7 +836,7 @@ msgid "Fee"
 msgstr "Provizija"
 
 #: src/components/wallet/coloured/WalletColoured.tsx:420
-#~ msgid "Fee (TXCH)"
+#~ msgid "Fee (TAVO)"
 #~ msgstr ""
 
 #: src/components/wallet/coloured/WalletColoured.tsx:420
@@ -1430,8 +1472,13 @@ msgstr ""
 msgid "Plots Passed Filter"
 msgstr ""
 
+<<<<<<< HEAD
 #: src/components/plot/overview/PlotOverviewHero.tsx:28
 msgid "Plots are allocated space on your hard drive used to farm and earn Chia. <0>Learn more</0>"
+=======
+#: src/components/plot/overview/PlotOverviewHero.tsx:30
+msgid "Plots are allocated space on your hard drive used to farm and earn Avocado. <0>Learn more</0>"
+>>>>>>> tmp
 msgstr ""
 
 #: src/components/plot/queue/PlotQueueIndicator.tsx:34
@@ -1848,9 +1895,15 @@ msgstr ""
 msgid "Spending Interval Length (number of blocks)"
 msgstr ""
 
+<<<<<<< HEAD
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:401
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:448
 msgid "Spending Limit (chia per interval): {0}"
+=======
+#: src/components/wallet/rateLimited/WalletRateLimited.jsx:415
+#: src/components/wallet/rateLimited/WalletRateLimited.jsx:466
+msgid "Spending Limit (avocado per interval): {0}"
+>>>>>>> tmp
 msgstr ""
 
 #: src/components/fullNode/FullNode.jsx:100
@@ -1899,8 +1952,8 @@ msgstr "Stanje:"
 #~ msgstr "Sub Block Height"
 
 #: src/components/block/Block.jsx:338
-#~ msgid "Sub Block at height {0} in the Chia blockchain"
-#~ msgstr "Sub Block at height {0} in the Chia blockchain"
+#~ msgid "Sub Block at height {0} in the Avocado blockchain"
+#~ msgstr "Sub Block at height {0} in the Avocado blockchain"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:347
 msgid "Submit"
@@ -1927,23 +1980,23 @@ msgstr ""
 #~ msgstr "Syncing {progress}/{tip}"
 
 #: src/components/farm/card/FarmCardBlockRewards.tsx:15
-#~ msgid "TXCH Block Rewards"
+#~ msgid "TAVO Block Rewards"
 #~ msgstr ""
 
 #: src/components/farm/card/FarmCardCoinbaseRewards.tsx:12
-#~ msgid "TXCH Farming Rewards"
+#~ msgid "TAVO Farming Rewards"
 #~ msgstr ""
 
 #: src/components/farm/card/FarmCardFeesReward.tsx:12
-#~ msgid "TXCH Fees Collected"
+#~ msgid "TAVO Fees Collected"
 #~ msgstr ""
 
 #: src/components/farm/card/FarmCardUserFees.tsx:12
-#~ msgid "TXCH User Fees"
-#~ msgstr "TXCH User Fees"
+#~ msgid "TAVO User Fees"
+#~ msgstr "TAVO User Fees"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:15
-#~ msgid "TXCH User Transaction Fees"
+#~ msgid "TAVO User Transaction Fees"
 #~ msgstr ""
 
 #: src/components/pool/PoolInfo.tsx:37
@@ -2026,8 +2079,13 @@ msgstr ""
 msgid "This feature is available only from the GUI."
 msgstr ""
 
+<<<<<<< HEAD
 #: src/components/wallet/card/WalletCardSpendableBalance.tsx:26
 msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
+=======
+#: src/components/wallet/standard/WalletStandard.tsx:264
+msgid "This is the amount of Avocado that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Avocado that you have just spent but is not yet in the blockchain."
+>>>>>>> tmp
 msgstr ""
 
 #: src/components/wallet/card/WalletCardPendingChange.tsx:26
@@ -2046,8 +2104,13 @@ msgstr ""
 msgid "This is the time the block was created by the farmer, which is before it is finalized with a proof of time"
 msgstr ""
 
+<<<<<<< HEAD
 #: src/components/wallet/card/WalletCardTotalBalance.tsx:34
 msgid "This is the total amount of chia in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+=======
+#: src/components/wallet/standard/WalletStandard.tsx:252
+msgid "This is the total amount of avocado in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+>>>>>>> tmp
 msgstr ""
 
 #: src/components/wallet/card/WalletCardPendingTotalBalance.tsx:29
@@ -2088,8 +2151,13 @@ msgstr ""
 msgid "This trade was included on blockchain at this block height"
 msgstr ""
 
+<<<<<<< HEAD
 #: src/components/app/AppTimeBombAlert.tsx:19
 msgid "This version of Chia is no longer compatible with the blockchain and can not safely farm."
+=======
+#: src/components/app/AppTimeBombAlert.tsx:18
+msgid "This version of Avocado is no longer compatible with the blockchain and can not safely farm."
+>>>>>>> tmp
 msgstr ""
 
 #: src/components/fullNode/FullNode.jsx:92
@@ -2114,8 +2182,8 @@ msgstr "Za"
 msgid "Total Balance"
 msgstr "Skupna bilanca"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:15
-#~ msgid "Total Chia Farmed"
+#: src/components/farm/card/FarmCardTotalAvocadoFarmed.tsx:15
+#~ msgid "Total Avocado Farmed"
 #~ msgstr ""
 
 #: src/components/fullNode/card/FullNodeCardTotalIterations.tsx:21
@@ -2278,7 +2346,7 @@ msgstr ""
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:30
-#~ msgid "WalletItem.chiaWallet"
+#~ msgid "WalletItem.avocadoWallet"
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:48
@@ -2310,12 +2378,17 @@ msgstr "Denarnice"
 #~ msgid "Wallets.title"
 #~ msgstr ""
 
+<<<<<<< HEAD
 #: src/components/plotNFT/PlotNFTAdd.tsx:57
 msgid "Want to Join a Pool? Create a Plot NFT"
 msgstr ""
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:133
 msgid "Want to earn more Chia? Add more plots to your farm."
+=======
+#: src/components/plot/overview/PlotOverviewPlots.tsx:107
+msgid "Want to earn more Avocado? Add more plots to your farm."
+>>>>>>> tmp
 msgstr ""
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:86
@@ -2330,8 +2403,13 @@ msgstr ""
 msgid "Weight is the total added difficulty of all sub blocks up to and including this one"
 msgstr ""
 
+<<<<<<< HEAD
 #: src/components/selectKey/SelectKey.tsx:114
 msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
+=======
+#: src/components/selectKey/SelectKey.tsx:115
+msgid "Welcome to Avocado. Please log in with an existing key, or create a new key."
+>>>>>>> tmp
 msgstr ""
 
 #: src/components/wallet/WalletAdd.tsx:66
@@ -2402,8 +2480,8 @@ msgid "You need to claim your rewards first"
 msgstr ""
 
 #: src/components/app/AppTimeBomb.tsx:28
-#~ msgid "You need to upgrade the Chia application as this version will stop working soon!"
-#~ msgstr "You need to upgrade the Chia application as this version will stop working soon!"
+#~ msgid "You need to upgrade the Avocado application as this version will stop working soon!"
+#~ msgstr "You need to upgrade the Avocado application as this version will stop working soon!"
 
 #: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:135
 msgid "You will recieve <0/> to {0}"
@@ -2486,8 +2564,8 @@ msgstr ""
 msgid "{currencyCode} Block Rewards"
 msgstr "{currencyCode} Nagrade blokov"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:29
-msgid "{currencyCode} Total Chia Farmed"
+#: src/components/farm/card/FarmCardTotalAvocadoFarmed.tsx:29
+msgid "{currencyCode} Total Avocado Farmed"
 msgstr "{currencyCode} skupaj Chie"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:28

@@ -10,8 +10,8 @@ import {
   Home as HomeIcon,
   Plot as PlotIcon,
   Pool as PoolIcon,
-} from '@chia/icons';
-import { Flex, SideBarItem } from '@chia/core';
+} from '@avocado/icons';
+import { Flex, SideBarItem } from '@avocado/core';
 import { logOut } from '../../modules/message';
 
 const StyledRoot = styled(Flex)`

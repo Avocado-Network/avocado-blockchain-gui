@@ -6,16 +6,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: hr_HR\n"
-"Project-Id-Version: chia-blockchain\n"
+"Project-Id-Version: avocado-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2021-06-30 06:03\n"
 "Last-Translator: \n"
 "Language-Team: Croatian\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Crowdin-Project: chia-blockchain\n"
+"X-Crowdin-Project: avocado-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: hr\n"
-"X-Crowdin-File: /[Chia-Network.chia-blockchain-gui] main/src/locales/en-US/messages.po\n"
+"X-Crowdin-File: /[Avocado-Network.avocado-blockchain-gui] main/src/locales/en-US/messages.po\n"
 "X-Crowdin-File-ID: 118\n"
 
 #: src/components/plot/add/PlotAddNFT.tsx:62
@@ -23,8 +23,8 @@ msgid "(Optional)"
 msgstr ""
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:64
-msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
-msgstr "*Želiš više istražiti Chia blokove? Pogledaj <0>Chia Explorer</0> napravljen od strane razvojnih programera otvorenog koda."
+msgid "*Want to explore Avocado’s blocks further? Check out <0>Avocado Explorer</0> built by an open source developer."
+msgstr "*Želiš više istražiti Avocado blokove? Pogledaj <0>Avocado Explorer</0> napravljen od strane razvojnih programera otvorenog koda."
 
 #: src/components/plot/add/PlotAddNFT.tsx:127
 msgid "+ Add New Plot NFT"
@@ -44,8 +44,8 @@ msgstr "Sakupljač je servis pokrenut na računalu gdje su spremljena zemljišta
 
 #: src/electron/main.tsx:422
 #: src/electron/main.tsx:509
-msgid "About Chia Blockchain"
-msgstr "O Chia Blockchainu"
+msgid "About Avocado Blockchain"
+msgstr "O Avocado Blockchainu"
 
 #: src/components/trading/ViewOffer.jsx:74
 msgid "Accept"
@@ -207,8 +207,8 @@ msgid "Block VDF Iterations"
 msgstr "VDF Ponavljanje Bloka"
 
 #: src/components/block/Block.jsx:338
-msgid "Block at height {0} in the Chia blockchain"
-msgstr "Blok je na {0} visini u Chia blockchainu"
+msgid "Block at height {0} in the Avocado blockchain"
+msgstr "Blok je na {0} visini u Avocado blockchainu"
 
 #: src/components/fullNode/FullNode.jsx:331
 #~ msgid "Block hash"
@@ -299,16 +299,16 @@ msgid "Chat on KeyBase"
 msgstr "Razgovaraj na KeyBase"
 
 #: src/electron/main.tsx:419
-msgid "Chia"
-msgstr "Chia"
+msgid "Avocado"
+msgstr "Avocado"
 
 #: src/electron/main.tsx:358
-msgid "Chia Blockchain Wiki"
-msgstr "Chia Blockchain Wiki"
+msgid "Avocado Blockchain Wiki"
+msgstr "Avocado Blockchain Wiki"
 
 #: src/components/wallet/standard/WalletStandard.tsx:630
-msgid "Chia Wallet"
-msgstr "Chia Novčanik"
+msgid "Avocado Wallet"
+msgstr "Avocado Novčanik"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:36
 msgid "Choose Number of Plots"
@@ -669,8 +669,8 @@ msgid "Edit"
 msgstr "Uredi"
 
 #: src/components/wallet/WalletImport.tsx:147
-msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
-msgstr "Unesi 24 mnemonic riječi koje su kreirane prilikom kreiranja novčanika kako bi mogao vratiti postojeći Chia novčanik."
+msgid "Enter the 24 word mnemonic that you have saved in order to restore your Avocado wallet."
+msgstr "Unesi 24 mnemonic riječi koje su kreirane prilikom kreiranja novčanika kako bi mogao vratiti postojeći Avocado novčanik."
 
 #: src/components/farm/FarmerStatus.tsx:21
 #: src/components/farm/FarmerStatus.tsx:22
@@ -683,8 +683,8 @@ msgid "Error"
 msgstr "Greška"
 
 #: src/components/wallet/standard/WalletStandard.tsx:453
-msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
-msgstr "Greška: Nemogu poslati Chia na obojanu adresu. Unesi Chia adresu."
+msgid "Error: Cannot send avocado to coloured address. Please enter a avocado address."
+msgstr "Greška: Nemogu poslati Avocado na obojanu adresu. Unesi Avocado adresu."
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:20
 msgid "Estimated Network Space"
@@ -794,7 +794,7 @@ msgid "Fee"
 msgstr "Naknada"
 
 #: src/components/wallet/coloured/WalletColoured.tsx:420
-#~ msgid "Fee (TXCH)"
+#~ msgid "Fee (TAVO)"
 #~ msgstr ""
 
 #: src/components/wallet/coloured/WalletColoured.tsx:420
@@ -986,15 +986,15 @@ msgid "Join a Pool"
 msgstr ""
 
 #: src/components/plot/add/PlotAddNFT.tsx:44
-msgid "Join a pool and get consistent XCH farming rewards. The average returns are the same, but it is much less volatile."
+msgid "Join a pool and get consistent AVO farming rewards. The average returns are the same, but it is much less volatile."
 msgstr ""
 
 #: src/components/plotNFT/PlotNFTAdd.tsx:59
-msgid "Join a pool and get consistent XCH farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a plot NFT. You can easily switch pools without having to re-plot."
+msgid "Join a pool and get consistent AVO farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a plot NFT. You can easily switch pools without having to re-plot."
 msgstr ""
 
 #: src/components/plot/add/PlotAddNFT.tsx:137
-msgid "Join a pool and get more consistent XCH farming rewards. Create a plot NFT and assign your new plots to a group."
+msgid "Join a pool and get more consistent AVO farming rewards. Create a plot NFT and assign your new plots to a group."
 msgstr ""
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:63
@@ -1219,7 +1219,7 @@ msgid "Not found Plots"
 msgstr "Nisu pronađena zemljišta"
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:186
-msgid "Note that this does not change your pooling payout addresses. This only affects old format plots, and the 0.25XCH reward for pooling plots."
+msgid "Note that this does not change your pooling payout addresses. This only affects old format plots, and the 0.25AVO reward for pooling plots."
 msgstr ""
 
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:95
@@ -1431,8 +1431,8 @@ msgid "Plots Passed Filter"
 msgstr "Zemljišta su prošla filter"
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:28
-msgid "Plots are allocated space on your hard drive used to farm and earn Chia. <0>Learn more</0>"
-msgstr "Zemljišta su alociran prostor na tvome tvrdom pogonu koja se koriste za uzgoj i zaradu Chia. <0>Saznaj više</0>"
+msgid "Plots are allocated space on your hard drive used to farm and earn Avocado. <0>Learn more</0>"
+msgstr "Zemljišta su alociran prostor na tvome tvrdom pogonu koja se koriste za uzgoj i zaradu Avocado. <0>Saznaj više</0>"
 
 #: src/components/plot/queue/PlotQueueIndicator.tsx:34
 msgid "Plotting"
@@ -1765,7 +1765,7 @@ msgid "Self Pooling"
 msgstr ""
 
 #: src/components/plotNFT/select/PlotNFTSelectBase.tsx:105
-msgid "Self pool. When you win a block you will earn XCH rewards."
+msgid "Self pool. When you win a block you will earn AVO rewards."
 msgstr ""
 
 #: src/components/trading/CreateOffer.jsx:164
@@ -1818,7 +1818,7 @@ msgid "Skips adding a final directory to harvester for farming"
 msgstr "Preskače dodavanje krajnjeg direktorija žeteocu za uzgoj"
 
 #: src/components/pool/PoolHero.tsx:26
-msgid "Smooth out your XCH farming rewards by joining a pool."
+msgid "Smooth out your AVO farming rewards by joining a pool."
 msgstr ""
 
 #: src/electron/main.tsx:470
@@ -1850,8 +1850,8 @@ msgstr "Duljina intervala potrošnje (broj blokova)"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:401
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:448
-msgid "Spending Limit (chia per interval): {0}"
-msgstr "Limit potrošnje (chia po intervalu): {0}"
+msgid "Spending Limit (avocado per interval): {0}"
+msgstr "Limit potrošnje (avocado po intervalu): {0}"
 
 #: src/components/fullNode/FullNode.jsx:100
 msgid "State"
@@ -1899,8 +1899,8 @@ msgstr "Stanje:"
 #~ msgstr "Sub Block Height"
 
 #: src/components/block/Block.jsx:338
-#~ msgid "Sub Block at height {0} in the Chia blockchain"
-#~ msgstr "Sub Block at height {0} in the Chia blockchain"
+#~ msgid "Sub Block at height {0} in the Avocado blockchain"
+#~ msgstr "Sub Block at height {0} in the Avocado blockchain"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:347
 msgid "Submit"
@@ -1927,23 +1927,23 @@ msgstr ""
 #~ msgstr "Syncing {progress}/{tip}"
 
 #: src/components/farm/card/FarmCardBlockRewards.tsx:15
-#~ msgid "TXCH Block Rewards"
+#~ msgid "TAVO Block Rewards"
 #~ msgstr ""
 
 #: src/components/farm/card/FarmCardCoinbaseRewards.tsx:12
-#~ msgid "TXCH Farming Rewards"
+#~ msgid "TAVO Farming Rewards"
 #~ msgstr ""
 
 #: src/components/farm/card/FarmCardFeesReward.tsx:12
-#~ msgid "TXCH Fees Collected"
+#~ msgid "TAVO Fees Collected"
 #~ msgstr ""
 
 #: src/components/farm/card/FarmCardUserFees.tsx:12
-#~ msgid "TXCH User Fees"
-#~ msgstr "TXCH User Fees"
+#~ msgid "TAVO User Fees"
+#~ msgstr "TAVO User Fees"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:15
-#~ msgid "TXCH User Transaction Fees"
+#~ msgid "TAVO User Transaction Fees"
 #~ msgstr ""
 
 #: src/components/pool/PoolInfo.tsx:37
@@ -2027,8 +2027,8 @@ msgid "This feature is available only from the GUI."
 msgstr "Ova mogućnost je dostupna samo iz GUI."
 
 #: src/components/wallet/card/WalletCardSpendableBalance.tsx:26
-msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
-msgstr "Ovo je iznos Chia koji trenutno možeš koristiti za transakcije. Ne uključuje nagrade na čekanju, transakcije na čekanju i Chia koje si potrošio, ali još nisu u blockchainu."
+msgid "This is the amount of Avocado that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Avocado that you have just spent but is not yet in the blockchain."
+msgstr "Ovo je iznos Avocado koji trenutno možeš koristiti za transakcije. Ne uključuje nagrade na čekanju, transakcije na čekanju i Avocado koje si potrošio, ali još nisu u blockchainu."
 
 #: src/components/wallet/card/WalletCardPendingChange.tsx:26
 msgid "This is the pending change, which are change coins which you have sent to yourself, but have not been confirmed yet."
@@ -2047,8 +2047,8 @@ msgid "This is the time the block was created by the farmer, which is before it 
 msgstr "Ovo je vrijeme bloka koji je farmer kreirao, koje je prije nego je završen sa dokazom o vremenu"
 
 #: src/components/wallet/card/WalletCardTotalBalance.tsx:34
-msgid "This is the total amount of chia in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
-msgstr "Ovo je ukupan iznos Chia u blockchainu na trenutnom najvisem pod bloku koji je kontroliran sa tvojim privatnim ključevima. Uključuje zamrznute nagrade, ali ne i ulazne ili odlazne transakcije na čekanju."
+msgid "This is the total amount of avocado in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+msgstr "Ovo je ukupan iznos Avocado u blockchainu na trenutnom najvisem pod bloku koji je kontroliran sa tvojim privatnim ključevima. Uključuje zamrznute nagrade, ali ne i ulazne ili odlazne transakcije na čekanju."
 
 #: src/components/wallet/card/WalletCardPendingTotalBalance.tsx:29
 msgid "This is the total balance + pending balance: it is what your balance will be after all pending transactions are confirmed."
@@ -2089,8 +2089,8 @@ msgid "This trade was included on blockchain at this block height"
 msgstr "Ova trgovina je uključena u blockchain na ovoj visini bloka"
 
 #: src/components/app/AppTimeBombAlert.tsx:19
-msgid "This version of Chia is no longer compatible with the blockchain and can not safely farm."
-msgstr "Ova verzija Chia vise nije kompatibilna sa blockchainom i ne može se sigurno uzgajati."
+msgid "This version of Avocado is no longer compatible with the blockchain and can not safely farm."
+msgstr "Ova verzija Avocado vise nije kompatibilna sa blockchainom i ne može se sigurno uzgajati."
 
 #: src/components/fullNode/FullNode.jsx:92
 msgid "Time Created"
@@ -2114,8 +2114,8 @@ msgstr "Za"
 msgid "Total Balance"
 msgstr "Ukupno stanje"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:15
-#~ msgid "Total Chia Farmed"
+#: src/components/farm/card/FarmCardTotalAvocadoFarmed.tsx:15
+#~ msgid "Total Avocado Farmed"
 #~ msgstr ""
 
 #: src/components/fullNode/card/FullNodeCardTotalIterations.tsx:21
@@ -2278,7 +2278,7 @@ msgstr ""
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:30
-#~ msgid "WalletItem.chiaWallet"
+#~ msgid "WalletItem.avocadoWallet"
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:48
@@ -2315,8 +2315,8 @@ msgid "Want to Join a Pool? Create a Plot NFT"
 msgstr ""
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:133
-msgid "Want to earn more Chia? Add more plots to your farm."
-msgstr "Želiš zaraditi više Chia? Dodaj više zemljišta u svoju farmu."
+msgid "Want to earn more Avocado? Add more plots to your farm."
+msgstr "Želiš zaraditi više Avocado? Dodaj više zemljišta u svoju farmu."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:86
 msgid "Want to have a delay before the next plot starts?"
@@ -2331,8 +2331,8 @@ msgid "Weight is the total added difficulty of all sub blocks up to and includin
 msgstr "Težina je ukupno dodanih kompleksnosti svih pod blokova uključujući i ovaj"
 
 #: src/components/selectKey/SelectKey.tsx:114
-msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
-msgstr "Dobrodošao u Chia. Prijavi se sa postojećim ključem, ili kreiraj novi."
+msgid "Welcome to Avocado. Please log in with an existing key, or create a new key."
+msgstr "Dobrodošao u Avocado. Prijavi se sa postojećim ključem, ili kreiraj novi."
 
 #: src/components/wallet/WalletAdd.tsx:66
 msgid "Welcome! The following words are used for your wallet backup. Without them, you will lose access to your wallet, keep them safe! Write down each word along with the order number next to them. (Order is important)"
@@ -2402,8 +2402,8 @@ msgid "You need to claim your rewards first"
 msgstr ""
 
 #: src/components/app/AppTimeBomb.tsx:28
-#~ msgid "You need to upgrade the Chia application as this version will stop working soon!"
-#~ msgstr "You need to upgrade the Chia application as this version will stop working soon!"
+#~ msgid "You need to upgrade the Avocado application as this version will stop working soon!"
+#~ msgstr "You need to upgrade the Avocado application as this version will stop working soon!"
 
 #: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:135
 msgid "You will recieve <0/> to {0}"
@@ -2486,14 +2486,14 @@ msgstr ""
 msgid "{currencyCode} Block Rewards"
 msgstr "{currencyCode} Nagrade bloka"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:29
-msgid "{currencyCode} Total Chia Farmed"
-msgstr "{currencyCode} Ukupno ugojeno Chia"
+#: src/components/farm/card/FarmCardTotalAvocadoFarmed.tsx:29
+msgid "{currencyCode} Total Avocado Farmed"
+msgstr "{currencyCode} Ukupno ugojeno Avocado"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:28
 msgid "{currencyCode} User Transaction Fees"
 msgstr "{currencyCode} Korisničke naknade transakcija"
 
 #: src/components/core/components/Amount/Amount.tsx:52
-msgid "{mojo, plural, one {mojo} other {mojos}}"
+msgid "{slices, plural, one {slices} other {slicess}}"
 msgstr ""

@@ -72,8 +72,8 @@ export default {
       'node_modules',
     ],
     alias: {
-      "@chia/core": `${__dirname}/src/components/core`,
-      "@chia/icons": `${__dirname}/src/components/icons`,
+      "@avocado/core": `${__dirname}/src/components/core`,
+      "@avocado/icons": `${__dirname}/src/components/icons`,
       crypto: 'crypto-browserify',
       stream: 'stream-browserify',
     },

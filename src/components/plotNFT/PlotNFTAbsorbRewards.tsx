@@ -12,7 +12,7 @@ import {
   Form,
   FormBackButton,
   State,
-} from '@chia/core';
+} from '@avocado/core';
 import { useForm } from 'react-hook-form';
 import { ChevronRight as ChevronRightIcon } from '@material-ui/icons';
 import { Grid, Typography } from '@material-ui/core';
@@ -21,7 +21,7 @@ import usePlotNFTs from '../../hooks/usePlotNFTs';
 import { pwAbsorbRewards } from '../../modules/plotNFT';
 import { SubmitData } from './select/PlotNFTSelectPool';
 import PlotNFTName from './PlotNFTName';
-import { mojo_to_chia, chia_to_mojo } from '../../util/chia';
+import { slice_to_avocado, avocado_to_slice } from '../../util/avocado';
 import useStandardWallet from '../../hooks/useStandardWallet';
 
 type FormData = {
@@ -64,7 +64,7 @@ export default function PlotNFTAbsorbRewards(props: Props) {
 
       const { fee } = data;
 
-      const feeMojos = chia_to_mojo(fee);
+      const feeMojos = avocado_to_slice(fee);
 
       if (walletId === undefined || !address) {
         return;
@@ -135,7 +135,7 @@ export default function PlotNFTAbsorbRewards(props: Props) {
               <Trans>
                 You will recieve{' '}
                 <UnitFormat
-                  value={mojo_to_chia(BigInt(balance))}
+                  value={slice_to_avocado(BigInt(balance))}
                   display="inline"
                   state={State.SUCCESS}
                 />{' '}

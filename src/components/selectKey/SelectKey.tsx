@@ -2,7 +2,7 @@ import React from 'react';
 import { Trans } from '@lingui/macro';
 import { useSelector, useDispatch } from 'react-redux';
 import styled from 'styled-components';
-import { Button, ConfirmDialog, Flex, Logo } from '@chia/core';
+import { Button, ConfirmDialog, Flex, Logo } from '@avocado/core';
 import {
   Card,
   Typography,
@@ -112,7 +112,7 @@ export default function SelectKey() {
               </Typography>
               <Typography variant="subtitle1">
                 <Trans>
-                  Welcome to Chia. Please log in with an existing key, or create
+                  Welcome to Avocado. Please log in with an existing key, or create
                   a new key.
                 </Trans>
               </Typography>

@@ -1,22 +1,22 @@
 const units = {
-  chia: 1,
-  mojo: 1 / 1e12,
+  avocado: 1,
+  slice: 1 / 1e12,
   colouredcoin: 1 / 1e9,
 };
 
 const aliases = {
-  chia: ['ch', 'chia', 'Chia'],
-  mojo: ['mj', 'mojo'],
+  avocado: ['av', 'avocado', 'Avocado'],
+  slice: ['sl', 'slice'],
   colouredcoin: ['cc', 'colouredcoin'],
 };
 
 const display = {
-  chia: {
-    format: '{amount} CH',
+  avocado: {
+    format: '{amount} AV',
     fractionDigits: 12,
   },
-  mojo: {
-    format: '{amount} MJ',
+  slice: {
+    format: '{amount} SL',
     fractionDigits: 0,
   },
   colouredcoin: {

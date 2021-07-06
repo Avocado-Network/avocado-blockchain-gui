@@ -19,7 +19,7 @@ import {
   Loading,
   TooltipIcon,
   Flex,
-} from '@chia/core';
+} from '@avocado/core';
 import {
   unix_to_short_date,
   hex_to_array,
@@ -27,7 +27,7 @@ import {
   sha256,
 } from '../../util/utils';
 import { getBlockRecord, getBlock } from '../../modules/fullnodeMessages';
-import { mojo_to_chia } from '../../util/chia';
+import { slice_to_avocado } from '../../util/avocado';
 import {
   calculatePoolReward,
   calculateBaseFarmerReward,
@@ -173,13 +173,13 @@ export default function Block() {
       ? blockRecord.weight - prevBlockRecord.weight
       : blockRecord?.weight ?? 0;
 
-  const poolReward = mojo_to_chia(calculatePoolReward(blockRecord.height));
-  const baseFarmerReward = mojo_to_chia(
+  const poolReward = slice_to_avocado(calculatePoolReward(blockRecord.height));
+  const baseFarmerReward = slice_to_avocado(
     calculateBaseFarmerReward(blockRecord.height),
   );
 
-  const chiaFees = blockRecord.fees
-    ? mojo_to_chia(BigInt(blockRecord.fees))
+  const avocadoFees = blockRecord.fees
+    ? slice_to_avocado(BigInt(blockRecord.fees))
     : '';
 
   const rows = [
@@ -270,7 +270,7 @@ export default function Block() {
       value: (
         <Link
           target="_blank"
-          href={`https://www.chiaexplorer.com/blockchain/puzzlehash/${blockRecord.farmer_puzzle_hash}`}
+          href={`https://www.avocadoexplorer.com/blockchain/puzzlehash/${blockRecord.farmer_puzzle_hash}`}
         >
           {currencyCode
             ? toBech32m(
@@ -286,7 +286,7 @@ export default function Block() {
       value: (
         <Link
           target="_blank"
-          href={`https://www.chiaexplorer.com/blockchain/puzzlehash/${blockRecord.pool_puzzle_hash}`}
+          href={`https://www.avocadoexplorer.com/blockchain/puzzlehash/${blockRecord.pool_puzzle_hash}`}
         >
           {currencyCode
             ? toBech32m(
@@ -321,7 +321,7 @@ export default function Block() {
     },
     {
       name: <Trans>Fees Amount</Trans>,
-      value: chiaFees ? `${chiaFees} ${currencyCode}` : '',
+      value: avocadoFees ? `${avocadoFees} ${currencyCode}` : '',
       tooltip: (
         <Trans>
           The total transactions fees in this block. Rewarded to the farmer.
@@ -336,7 +336,7 @@ export default function Block() {
         title={
           <BlockTitle>
             <Trans>
-              Block at height {blockRecord.height} in the Chia blockchain
+              Block at height {blockRecord.height} in the Avocado blockchain
             </Trans>
           </BlockTitle>
         }
